@@ -95,5 +95,3 @@ def run_test3():
     b = np.array([8, 3])
     sol, max_val = simplex(c, A, b)
     print(f"Решение: {sol}, Максимум: {max_val}")
-
-run_test1()
